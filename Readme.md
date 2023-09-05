@@ -14,14 +14,12 @@ The PredictorProjGPT prompt framework has the capability to accept performance t
 
 ```
 pip install openai
-
 ```
 
 *2. Install Pandas*
 
 ```
 pip install pandas
-
 ```
 
 
