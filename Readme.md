@@ -12,10 +12,16 @@ The PredictorProjGPT prompt framework has the capability to accept performance t
 
 *1. Install OpenAI Packages*
 
-'''pip install openai'''
+```
+pip install openai
+
+```
 
 *2. Install Pandas*
 
-'''pip install pandas'''
+```
+pip install pandas
+
+```
 
 
