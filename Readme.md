@@ -4,4 +4,18 @@ The PredictorProjGPT prompt framework has the capability to accept performance t
 
 <h1>Pre-Requisites</h1>
 
-<italic> 1. OpenAI API Key </italic>
+*1. OpenAI API Key*
+*2. OpenAI Packages*
+*3. Pandas Packages*
+
+<h3>Installing Packages</h3>
+
+*1. Install OpenAI Packages*
+
+'''pip install openai'''
+
+*2. Install Pandas*
+
+'''pip install pandas'''
+
+
