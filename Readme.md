@@ -21,5 +21,26 @@ pip install openai
 ```
 pip install pandas
 ```
+<h1>Output</h1>
+
+<h3>Input Performance Test Report Prompt</h3>
+
+```
+A performance test was conducted on 24th April 2020 on a Salesforce application. The following observation was 
+    recorded by a performance tester after conclusion of the test.
+    Configuration:
+    1. There are total 40 transactions involved. The wait time between each transaction is 5 seconds.
+    2. Total Pacing Time is configured as 180 seconds.
+    
+    Summary:
+    1. Average Response Time for the entire duration of the test was 6.5 seconds.
+    2. CPU Utilization peaked 75% in the first hour of the steady state.
+    3. Memory Consumption of 88% was observed at the last hour of the steady state.
+    4. Entire duration of the test was 5 hours. Endurance Test was performed.
+    5. Observed 10% error on the entire duration of the test
+    6. Predict the outcome
+```
+<h3>End Result</h3>
+![image](https://github.com/sayan26/PredictorProjGPT/assets/16152685/2fc5f180-ae55-4dad-8376-da43e3ab3b04)
 
 
