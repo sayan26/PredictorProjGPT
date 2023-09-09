@@ -6,10 +6,10 @@ import pandas as pd
 openai.api_key = openai_key
 
 
-def extract_performance_data(report):
-    prompt = get_performance_data() + report
+def extract_performance_data(report_text):
+    prompt = get_performance_data() + report_text
     response = openai.ChatCompletion.create(
-        model="gpt-3.5-turbo",
+        model="gpt-4-0613",
         messages=[{"role": "user", "content": prompt}]
     )
     content = response.choices[0]['message']['content']
