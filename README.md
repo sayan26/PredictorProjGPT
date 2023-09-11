@@ -54,12 +54,6 @@ Summary:
 
 <h1>Installation</h1>
 
-*1. Clone the repository into your project directory
-
-```
-git clone 'enter repository url here'
-```
-
 *1. Clone the repository into your project directory* <br>
 
 ```
