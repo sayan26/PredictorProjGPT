@@ -72,6 +72,15 @@ docker build -t predictor-gpt-app .
 docker run -it predictor-gpt-app
 ```
 
+<h1>Update - 18/03/2024</h1>
+
+```
+1. Recent Changes in OpenAI commands - ![https://github.com/openai/openai-python](https://github.com/openai/openai-python)
+```
+
+```
+2. OpenAI secret key is now stored as environment variable
+```
 
 
 
