@@ -1,18 +1,21 @@
-import openai
-from secretKey import openai_key
+from openai import OpenAI
+import os
 import json
 import pandas as pd
 
-openai.api_key = openai_key
+client = OpenAI(
+    # This is the default and can be omitted
+    api_key=os.environ.get("OPENAI_API_KEY"),
+)
 
 
 def extract_performance_data(report_text):
     prompt = get_performance_data() + report_text
-    response = openai.ChatCompletion.create(
+    response = client.chat.completions.create(
         model="gpt-4-0613",
         messages=[{"role": "user", "content": prompt}]
     )
-    content = response.choices[0]['message']['content']
+    content = response.choices[0].message.content
 
     try:
         data = json.loads(content)
